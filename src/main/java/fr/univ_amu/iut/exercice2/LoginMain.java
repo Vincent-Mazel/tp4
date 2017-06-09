@@ -5,6 +5,8 @@ import javafx.scene.Scene;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
+import java.net.URL;
+
 public class LoginMain extends Application {
     public static void main(String[] args) {
         Application.launch(args);
@@ -17,6 +19,7 @@ public class LoginMain extends Application {
         Scene scene = new Scene(root);
         stage.setScene(scene);
         stage.setTitle("FXMl Custom Control");
+
         stage.show();
     }
 }
